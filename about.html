@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABC Fitness Studio</title>
+    
+    <!-- Load Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <a href="/index.html">Home</a>
+        <a href="/gallery.html">Gallery</a>
+        <a href="/about.html">About Us</a>
+        <a href="/community.html">Community</a>
+    </nav>
+
+    <main>
+        <h1>About Us</h1>
+        <section>
+            <h2>About ABC Fitness Studio</h2>
+            <p>ABC Fitness Studio is a local hub for fitness and wellness, offering a welcoming environment for individuals to improve their physical and mental health.</p>
+        </section>
+        <section>
+            <h3>Hours of Operation</h3>
+            <ul>
+                <li>Monday–Friday: 6 a.m. - 8 p.m.</li>
+                <li>Saturday: 8 a.m. - 6 p.m.</li>
+                <li>Sunday: Closed</li>
+            </ul>
+        </section>
+        <section>
+            <h3>Contact Us</h3>
+            <form id="contact-form" action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer Newsletter Section -->
+    <footer class="newsletter-footer">
+        <h2>Subscribe to Our Newsletter</h2>
+        <p>Stay updated with the latest news, events, and promotions!</p>
+        <form id="subscribe-form">
+            <input type="email" id="subscribe-email" name="email" placeholder="Enter your email" required>
+            <button type="submit">Subscribe</button>
+        </form>
+    </footer>
+
+    <!-- Load jQuery, Bootstrap, and Custom Script -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+

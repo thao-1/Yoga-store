@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    
+    <!-- Load Bootstrap CSS (only once) -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="about.html">About Us</a>
+        <a href="community.html">Community</a>
+    </nav>
+
+    <main>
+        <h1>Gallery</h1>
+        <section>
+            <h2>Our Studio in Action</h2>
+            <p>Take a look at our classes, facilities, and the ABC Fitness community in action!</p>
+        </section>
+        
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="images/individual yoga session.png" alt="Individual yoga session">
+                <p>Individual Yoga Session</p>
+                <button class="add-to-cart" data-item="Individual Yoga Session">Add to Cart</button>
+            </div>
+            <div class="gallery-item">
+                <img src="images/groupyoga.png" alt="Group Yoga Session">
+                <p>Group Yoga Session</p>
+                <button class="add-to-cart" data-item="Group Yoga Session">Add to Cart</button>
+            </div>
+            <div class="gallery-item">
+                <img src="images/IndividualPilates.png" alt="Individual Pilates session">
+                <p>Individual Pilates Session</p>
+                <button class="add-to-cart" data-item="Individual Pilates Session">Add to Cart</button>
+            </div>
+            <div class="gallery-item">
+                <img src="images/GroupPilates.png" alt="Group Pilates session">
+                <p>Group Pilates Session</p>
+                <button class="add-to-cart" data-item="Group Pilates Session">Add to Cart</button>
+            </div>
+            <div class="gallery-item">
+                <img src="images/IndividualKickboxing.png" alt="Individual kickboxing session">
+                <p>Individual Kickboxing Session</p>
+                <button class="add-to-cart" data-item="Individual Kickboxing Session">Add to Cart</button>
+            </div>
+            <div class="gallery-item">
+                <img src="images/GroupKickboxing.png" alt="Group kickboxing session">
+                <p>Group Kickboxing Session</p>
+                <button class="add-to-cart" data-item="Group Kickboxing Session">Add to Cart</button>
+            </div>
+            <div class="gallery-item">
+                <img src="images/YogaMat.png" alt="Yoga mat">
+                <p>Yoga Mat</p>
+                <button class="add-to-cart" data-item="Yoga Mat">Add to Cart</button>
+            </div>
+            <div class="gallery-item">
+                <img src="images/WaterBottle.png" alt="Water bottle">
+                <p>Water Bottle</p>
+                <button class="add-to-cart" data-item="Water Bottle">Add to Cart</button>
+            </div>
+            <div class="gallery-item">
+                <img src="images/TeeShirt.png" alt="T-shirt">
+                <p>T-shirt</p>
+                <button class="add-to-cart" data-item="T-shirt">Add to Cart</button>
+            </div>
+        </div>
+
+        <!-- Button to View Cart -->
+        <button id="view-cart">View Cart</button>
+    </main>
+
+    <!-- Footer Newsletter Section -->
+    <footer class="newsletter-footer">
+        <h2>Subscribe to Our Newsletter</h2>
+        <p>Stay updated with the latest news, events, and promotions!</p>
+        <form id="subscribe-form">
+            <input type="email" id="subscribe-email" name="email" placeholder="Enter your email" required>
+            <button type="submit">Subscribe</button>
+        </form>
+    </footer>
+
+    <!-- Include jQuery, Bootstrap JS, and Custom Script (only once) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - ABC Fitness Studio</title>
+    <!-- Load jQuery (from a CDN) -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- Load Bootstrap (optional, only if you’re using it) -->
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+
+<!-- Load your custom JavaScript file -->
+<script src="script.js"></script>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="about.html">About Us</a>
+        <a href="community.html">Community</a>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-overlay">
+            <h1 class="hero-title">Welcome to ABC Fitness Studio</h1>
+            <p class="hero-subtitle">Your journey to wellness starts here!</p>
+        </div>
+    </header>
+
+    <main>
+        <!-- Benefits Section -->
+        <section class="benefits">
+            <h2>Why Choose ABC Fitness Studio?</h2>
+            <div class="benefits-grid">
+                <div class="benefit">
+                    <img src="images/modern.jpg" alt="State-of-the-Art Facilities">
+                    <h3>Modern Facilities</h3>
+                    <p>Our studio is equipped with high-quality fitness equipment for a complete workout experience.</p>
+                </div>
+                <div class="benefit">
+                    <img src="images/class.jpg" alt="Variety of Classes">
+                    <h3>Diverse Classes</h3>
+                    <p>Choose from Yoga, Pilates, Zumba, and more to keep your routine exciting and effective.</p>
+                </div>
+                <div class="benefit">
+                    <img src="images/expert.jpg" alt="Expert Trainers">
+                    <h3>Expert Trainers</h3>
+                    <p>Our certified trainers provide personalized guidance to help you reach your goals.</p>
+                </div>
+                <div class="benefit">
+                    <img src="images/groupyoga.png" alt="Welcoming Community">
+                    <h3>Welcoming Community</h3>
+                    <p>Be part of a supportive community that inspires and motivates you to stay on track.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="newsletter-footer">
+        <h2>Subscribe to Our Newsletter</h2>
+        <p>Stay updated with the latest news, events, and promotions!</p>
+        <form id="subscribe-form">
+        <label for="subscribe-email">Subscribe to Our Newsletter</label>
+        <input type="email" id="subscribe-email" name="email" placeholder="Enter your email" required>
+        <button type="submit">Subscribe</button>
+    </form>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
