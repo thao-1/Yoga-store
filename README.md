@@ -116,4 +116,4 @@ npm start
 - Social media integration
 
 ## Website was deployed using Netlify: 
-cosmic-malabi-ea0205.netlify.app
+https://cosmic-malabi-ea0205.netlify.app/
