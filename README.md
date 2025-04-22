@@ -114,3 +114,6 @@ npm start
 - Payment gateway integration
 - Class schedule management
 - Social media integration
+
+## Website was deployed using Netlify: 
+cosmic-malabi-ea0205.netlify.app
